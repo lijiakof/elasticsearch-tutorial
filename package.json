@@ -1,0 +1,7 @@
+{
+    "name": "es-tutorial",
+    "version": "0.1.0",
+    "dependencies": {
+        "elasticsearch": "^15.3.0"
+    }
+}
