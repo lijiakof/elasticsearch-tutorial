@@ -12,4 +12,9 @@ esc.search({
     }
 }).then(res => {
     console.log(res);
+
+    // res.hits.hits.forEach((item) => {
+    //     console.log(item._source)
+    // });
+    
 });

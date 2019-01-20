@@ -1,4 +1,4 @@
-# elasticsearch
+# Elasticsearch
 
 * 安装
 * JavaScript 客户端
