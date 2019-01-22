@@ -1,5 +1,5 @@
 # elasticsearch-tutorial
 
 * [Elasticsearch](./docs/elasticsearch.md)
-* Logstash
+* [Logstash](./docs/logstash.md)
 * Kibana
