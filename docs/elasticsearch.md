@@ -186,7 +186,7 @@ escClient.delete({
 
 ## Test
 
-* http://10.5.11.210:9200/_cat/indices?v
+* http://10.5.11.234:9200/_cat/indices?v
 
 ## 参考
 
