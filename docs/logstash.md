@@ -29,9 +29,12 @@ type=rpm-md
 * 启动：
     * ` cd /usr/share/logstash ` 
     * ` ./bin/logstash -e 'input { stdin { } } output { stdout {} }' `
-* sudo /usr/share/logstash/bin/logstash -f /etc/logstash/conf.d/
+* `sudo /usr/share/logstash/bin/logstash -f /etc/logstash/conf.d/`
+* or `sudo nohup /usr/share/logstash/bin/logstash -f /etc/logstash/conf.d/ &> /dev/null`
 * 做成服务：
-    * 
+    *  `cd /etc/init.d`
+    * l
+    * ln -sf /etc/init.d/logstash /etc/rc3.d/S50logstash
 
 ## 配置
 
@@ -105,3 +108,8 @@ output {
 }
 
 ```
+
+## 参考
+* https://elasticsearch.cn/article/6141
+* https://doc.yonyoucloud.com/doc/logstash-best-practice-cn/index.html
+* filebeat、beats
